@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Navbar Container */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+/* Navbar List */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Navbar List Item */
+li {
+  margin-right: 15px;
+}
+
+/* Navbar Link */
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Navbar Link Hover */
+a:hover {
+  color: lightgray;
+}

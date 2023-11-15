@@ -2,6 +2,7 @@
 import './App.css'
 import Carts from './Carts';
 import { useGlobalContext } from './context'
+import Header from './Header'
 
 function App() {
 
@@ -9,8 +10,7 @@ function App() {
 
   return (
     <>
-      <h2>helllo</h2>
-      <h2>{amount}</h2>
+      <Header />
       
       <Carts />
 
