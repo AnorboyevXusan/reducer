@@ -9,8 +9,8 @@ export default function Cart({ id, img, title, price, amount }) {
     <div className="cart-container">
       <img src={img} alt="img" />
       <h2>{title}</h2>
-      <p>{price}</p>
-      <p>{amount}</p>
+      <p>{price} $</p>
+      <p> quantity-{amount}</p>
       <div className="btn-div">
           <button onClick={() => add(id)}>add</button>
       <button
